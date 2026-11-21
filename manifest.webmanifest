@@ -1,0 +1,21 @@
+{
+  "name": "Tranquera — gestión de campo",
+  "short_name": "Tranquera",
+  "description": "Gestión agropecuaria con Era, tu asistente de campo.",
+  "lang": "es-AR",
+  "start_url": "./#resumen",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F5E8D9",
+  "theme_color": "#3F5228",
+  "icons": [
+    {"src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Hablarle a Era", "short_name": "Era", "url": "./#asistente", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]},
+    {"name": "Nuevo dato", "short_name": "Nuevo dato", "url": "./#nuevo", "icons": [{"src": "icons/icon-192.png", "sizes": "192x192"}]}
+  ]
+}
